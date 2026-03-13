@@ -16,9 +16,9 @@ const Login = () => {
 
     if (role === "admin") navigate("/admin");
     if (role === "manager") navigate("/manager");
-    if (role === "user") navigate("/user");
+    if (role === "user") navigate("/    ");
   };
-
+  
   return (
     <div>
       <h2>Login</h2>
