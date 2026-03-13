@@ -6,9 +6,9 @@ import {createContext , useContext}  from "react";
 const AuthContext = createContext();
 
 const AuthProvider = ({children}) => {
-
+     
     const [user, setUser]  = useState(null)
-
+   
     const login = (email, role)=>{
         const fakeUser = {email, role}
         setUser(fakeUser)
@@ -19,7 +19,7 @@ const AuthProvider = ({children}) => {
         setUser(null)
     }
 
-    
+
   return (
      <AuthContext.Provider value={{login, logout, user}}>
         {children}
