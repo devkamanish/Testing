@@ -37,7 +37,7 @@ const Login = () => {
             <option value="admin">Admin</option>
             <option value="manager">Manager</option>
             <option value="user">User</option>
-
+            
 
         </select>
         <button>Login</button>
@@ -45,6 +45,8 @@ const Login = () => {
     </div>
   )
 }
+
+
 
 
 export default Login
